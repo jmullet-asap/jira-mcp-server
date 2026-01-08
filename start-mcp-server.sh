@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /Users/joshuamullet/repos/jira-mcp-server
+# Change to the directory where this script is located
+cd "$(dirname "$0")"
 exec node mcp-server.js
